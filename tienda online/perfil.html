@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
-
-    <!-- font link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    
     <!-- css file link  -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/check.css">
+
+    <!-- perfil css file link-->
+    <link rel="stylesheet" href="css/perfil.css">
+
+    <!-- icons link-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 </head>
 <body>
@@ -105,7 +110,7 @@
 
 </div>
 
-<!-- iniciar sesion  -->
+<!-- inicio de sesion -->
 
 <div class="login-form">
 
@@ -125,85 +130,56 @@
 </div>
 
 <section class="heading">
-    <h3>Nosotros</h3>
-    <p> <a href="home.html">Inicio</a> / <span>Nosotros</span> </p>
+    <h3>Perfil</h3>
+    <p> <a href="home.html">Inicio</a> / <span>Perfil</span> </p>
 </section>
 
-<section class="about">
-
-    <div class="image">
-        <img src="image/about-img.jpg" alt="">
+<section class="seccion-perfil-usuario">
+    <div class="perfil-usuario-header">
+        <div class="perfil-usuario-portada">
+            <div class="perfil-usuario-avatar">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="img-avatar">
+            </div>
+            <button type="button" class="boton-portada">
+                <i class="far fa-image"></i> Cambiar fondo
+            </button>
+        </div>
     </div>
-
-    <div class="content">
-        <span>Bienvenido a tu tienda</span>
-        <h3>Dale una armonia a tu hogar
-            con nuestros modernos diseños.</h3>
-        <p>Tu hogar se disfruta al maximo cuando todo esta organizado.</p>
-        <p>tenemos una gran variedad de productos para que puedas organizar tu 
-            hogar a tu gusto, con nuestros productos de calidad y economicos... </p>
-        <a href="#" class="btn">read more</a>
+    <div class="perfil-usuario-body">
+        <div class="perfil-usuario-bio">
+            <h3 class="titulo">Maria Antonieta</h3>
+            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="perfil-usuario-footer">
+            <ul class="lista-datos">
+                <li><i class="icono fas fa-building"></i> Ciudad</li>
+                <li><i class="icono fas fa-map-signs"></i> Comuna</li>
+                <li><ion-icon name="home-sharp"></ion-icon> Direccion de usuario:</li>
+                <li><i class="icono fas fa-phone-alt"></i> Telefono:</li>
+            </ul>
+            <ul class="lista-datos">
+                <li><i class="icono fas fa-map-marker-alt"></i> Ubicacion.</li>
+                <li><i class="icono fas fa-calendar-alt"></i> Fecha nacimiento.</li>
+                <li><i class="icono fas fa-user-check"></i> Registro.</li>
+                <li><i class="icono fas fa-share-alt"></i> Redes sociales.</li>
+            </ul>
+        </div>
+        <div class="redes-sociales">
+            <a href="" class="boton-redes facebook fab fa-facebook-f"><i class="icon-facebook"></i></a>
+            <a href="" class="boton-redes twitter fab fa-twitter"><i class="icon-twitter"></i></a>
+            <a href="" class="boton-redes instagram fab fa-instagram"><i class="icon-instagram"></i></a>
+        </div>
     </div>
-
 </section>
 
-<section class="services">
-
-    <h1 class="title"> <span>Nuestros servicios</span> <a href="#">ver todo >></a> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="image/serv-1.svg" alt="">
-            <h3>venta de productos</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quod.</p>
-            <a href="#" class="btn">leer más</a>
-        </div>
-
-        <div class="box">
-            <img src="image/serv-2.svg" alt="">
-            <h3>vanguardista en diseños</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quod.</p>
-            <a href="#" class="btn">leer más</a>
-        </div>
-
-        <div class="box">
-            <img src="image/serv-3.svg" alt="">
-            <h3>soporte 24 / 7</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quod.</p>
-            <a href="#" class="btn">leer más</a>
-        </div>
-
-    </div>
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- footer section  -->
 
 <section class="footer">
 
     <div class="box-container">
 
         <div class="box">
-            <h3>quick links</h3>
+            <h3>extra links</h3>
             <a href="home.html"> <i class="fas fa-arrow-right"></i> Inicio</a>
             <a href="shop.html"> <i class="fas fa-arrow-right"></i> Tienda</a>
             <a href="about.html"> <i class="fas fa-arrow-right"></i> Nosotros</a>
@@ -215,7 +191,7 @@
             <h3>extra links</h3>
             <a href="#"> <i class="fas fa-arrow-right"></i> mi pedido</a>
             <a href="#"> <i class="fas fa-arrow-right"></i> mi lista de deseos</a>
-            <a href="perfil.html"> <i class="fas fa-arrow-right"></i> mi perfil</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> mi cuenta</a>
             <a href="#"> <i class="fas fa-arrow-right"></i> mis favoritos</a>
             <a href="#"> <i class="fas fa-arrow-right"></i> terminos y condiciones</a>
         </div>
@@ -234,7 +210,7 @@
             <p>suscribete para obtener actualizaciones</p>
             <form action="">
                 <input type="email" name="" placeholder="ingresa tu email" id="">
-                <input type="submit" value="subscribe" class="btn">
+                <input type="submit" value="suscribete" class="btn">
             </form>
         </div>
 
@@ -246,8 +222,11 @@
     Trabajo Grupal Seccion 005D
 </section>
 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+    
     
 </body>
 </html>
